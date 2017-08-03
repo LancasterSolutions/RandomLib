@@ -24,7 +24,7 @@
     },
     "require": {
         "ircmaxell/security-lib": "^1.1",
-        "php": ">=5.3.2"
+        "php": "\u003E=5.3.2"
     },
     "autoload": {
         "psr-0": {
@@ -38,6 +38,12 @@
         "satis": true
     },
     "repository": [
+        {
+            "type": "composer",
+            "url": "https://satis.lancaster-solutions.com"
+        }
+    ],
+    "repositories": [
         {
             "type": "composer",
             "url": "https://satis.lancaster-solutions.com"
