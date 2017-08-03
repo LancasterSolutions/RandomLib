@@ -2,7 +2,12 @@
     "name": "ircmaxell/random-lib",
     "type": "library",
     "description": "A Library For Generating Secure Random Numbers",
-    "keywords": ["random", "random-numbers", "random-strings", "cryptography"],
+    "keywords": [
+        "random",
+        "random-numbers",
+        "random-strings",
+        "cryptography"
+    ],
     "homepage": "https://github.com/ircmaxell/RandomLib",
     "license": "MIT",
     "authors": [
@@ -23,13 +28,19 @@
     },
     "autoload": {
         "psr-0": {
-            "RandomLib":   "lib"
+            "RandomLib": "lib"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master":  "1.1.x-dev"
+            "dev-master": "1.1.x-dev"
         },
         "satis": true
-    }
+    },
+    "repository": [
+        {
+            "type": "composer",
+            "url": "https://satis.lancaster-solutions.com"
+        }
+    ]
 }
